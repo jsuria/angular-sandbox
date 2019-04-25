@@ -1,0 +1,9 @@
+<div style="display:block; width:90%; margin-left:auto; margin-right:auto">
+    Your character is {{ elemental.name }}.<br/>
+    A {{ elemental.type.name }} who has the role of {{ elemental.role.name }}.<br/>
+
+    Abilities:<br/>
+    <ul>
+      <li *ngFor="let ability of elemental.abilities">{{ ability.name }}</li>
+    </ul>
+</div>
