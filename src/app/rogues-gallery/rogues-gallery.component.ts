@@ -8,8 +8,11 @@ import { SummonElemental, SummonAbility, SummonType, SummonRole } from './summon
 })
 export class RoguesGalleryComponent implements OnInit {
 
+  // TODO - Generate data from DB
+  // TODO - Create webservices (WP, Node, Symfony/Laravel/ZF2)
   elemental: SummonElemental;
 
+  // TODO - Move summon character code to profile component
   constructor() { 
 
     this.elemental = new SummonElemental({
