@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.less']
 })
 export class AppComponent {
-  title = 'Rogues Gallery';
+  title = 'Rogues Gallery of Heroes';
 }

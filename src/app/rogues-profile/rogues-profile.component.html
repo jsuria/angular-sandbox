@@ -1,3 +1,16 @@
-<p>
-  rogues-profile works!
-</p>
+<div style="display:block; width:90%; margin-left:auto; margin-right:auto">
+
+    Name: {{ elemental.name }}
+    A {{ elemental.type.name }} who has the role of {{ elemental.role.name }}.<br/>
+
+    <strong>Abilities:</strong>
+
+    <ul>
+      <li *ngFor="let ability of elemental.abilities">
+        {{ ability.name }}
+        {{ ability.type }}
+        {{ ability.cooldown_secs }}
+        {{ ability.mana_points }}
+      </li>
+    </ul>
+</div>
