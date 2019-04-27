@@ -4,7 +4,7 @@ import { SummonElemental, SummonAbility, SummonType, SummonRole } from '../model
 @Component({
   selector: 'app-rogues-profile',
   templateUrl: './rogues-profile.component.html',
-  styleUrls: ['./rogues-profile.component.less']
+  styleUrls: ['./rogues-profile.component.css']
 })
 export class RoguesProfileComponent implements OnInit {
 

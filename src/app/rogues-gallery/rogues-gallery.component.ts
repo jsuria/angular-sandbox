@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-rogues-gallery',
   templateUrl: './rogues-gallery.component.html',
-  styleUrls: ['./rogues-gallery.component.less']
+  styleUrls: ['./rogues-gallery.component.css']
 })
 export class RoguesGalleryComponent implements OnInit {
 
