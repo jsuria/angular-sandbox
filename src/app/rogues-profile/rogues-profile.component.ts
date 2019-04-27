@@ -25,6 +25,8 @@ export class RoguesProfileComponent implements OnInit {
         role: new SummonRole(this.elementalInput.role)
     });
 
+    // Needed to initialize this, can't infer the array
+    // during runtime.
     this.elemental.abilities = [];
 
     this.elementalInput.abilities.forEach((a: { 
